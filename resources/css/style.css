@@ -1,0 +1,95 @@
+html {
+    font-size: 16px;
+  }
+nav{
+    background-color: teal;
+    margin-top:0px;
+     height:3rem; 
+     
+}
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    margin-top:0px;
+}
+nav li{
+    
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:orange;
+    list-style-type: none;
+}
+#hh1{
+background-color:brown ;
+height: 5rem;
+margin-top:13rem;
+padding-top: 1em;
+margin-bottom:13rem;
+text-align:center;
+color:orange;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+background-color:coral;
+display:flex;
+flex-direction: column;
+
+}
+span{
+    color:purple;
+    
+}
+span a{
+    text-decoration:underline;
+    cursor: pointer;
+}
+header img, .gallery1 img{
+    height:15rem;
+    width:20rem;
+    margin:2.5rem;
+}
+.hh2 h2{
+    color:yellow;
+}
+.hh2 p{
+    color:white;
+}
+main{
+    background-color: teal;
+    height:15rem;
+   
+}
+main h1{
+    margin-top:0px;
+    padding-top:2rem;
+}
+.main2{
+    display:flex;
+    flex-direction: column;
+    background-color: coral;
+
+}
+.fun h2{
+    text-align:center;
+    color:yellow;
+}
+.fun img{
+    height:30rem;
+    width:40rem; 
+    display:block;
+    margin:auto;  
+}
+@media only screen and (max-width: 480px) {
+    nav ul{
+        display:flex;
+        flex-direction: column;
+        margin-top:0px;
+    }   
+    nav{
+    height:9rem; 
+    }
+}
